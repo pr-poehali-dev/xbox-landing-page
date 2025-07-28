@@ -91,7 +91,9 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-xbox-dark via-background to-xbox-dark py-20 px-4">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23107C10" fill-opacity="0.1"%3E%3Ccircle cx="7" cy="7" r="5"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+        <div className="absolute inset-0 opacity-20">
+          <div className="w-full h-full bg-gradient-to-br from-primary/5 to-transparent"></div>
+        </div>
         
         <div className="relative max-w-6xl mx-auto text-center">
           <Badge className="mb-6 bg-primary text-primary-foreground px-4 py-2 text-lg font-semibold">
