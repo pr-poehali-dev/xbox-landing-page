@@ -226,7 +226,7 @@ const Index = () => {
                 <AccordionContent className="px-6 pb-4 text-muted-foreground">
                   {item.answer}
                 </AccordionContent>
-              </AccordionContent>
+              </AccordionItem>
             ))}
           </Accordion>
         </div>
