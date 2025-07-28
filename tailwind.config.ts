@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -18,7 +18,12 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'body': ['Rubik', 'sans-serif'],
+			},
 			colors: {
+				'xbox-green': '#107C10',
+				'xbox-dark': '#1E1E1E',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
